@@ -1,0 +1,39 @@
+name: criticas_app
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.1
+  permission_handler: ^11.3.1
+  material_design_icons_flutter: ^7.0.7296
+  http: ^0.13.5
+  firebase_core: ^2.8.0
+  firebase_database: ^10.0.16
+  firebase_auth: ^4.3.0
+  provider: ^6.1.2
+  shared_preferences: ^2.0.18
+  google_maps_flutter: ^2.2.5
+  google_places_flutter: ^2.0.8
+  geolocator: ^11.0.0
+  google_maps_webservice: ^0.0.19
+  flutter_rating_bar: ^4.0.1
+  carousel_slider: ^4.2.1
+  get_storage: ^2.0.3
+  flutter_secure_storage: ^5.0.0+4
+  crypto: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+  assets :
+    - assets/
